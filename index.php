@@ -25,8 +25,8 @@ function get_http_response_code($redirect){
     $headers = get_headers($redirect);
     return substr($headers[0], 9, 3);
   }function my_simple_crypt($string, $action = 'e'){
-    $secret_key     = '7c6e1257d0e81ff55bda80cc904365ae'; //your key
-    $secret_iv      = 'cf5e4620455cd7190fcb53ede874f1a8'; //your iv
+    $secret_key     = 'budibego'; //your key
+    $secret_iv      = 'drivedimensiwibu'; //your iv
     $output         = false;
     $encrypt_method = "AES-256-CBC";
     $key            = hash('sha256', $secret_key);
